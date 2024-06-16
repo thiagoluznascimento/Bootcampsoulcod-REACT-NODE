@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <h1>Reserva</h1>
+    <a href="index.html">
+        <button>Voltar para página inicial</button>
+    </a>
+    <hr />
+    <h2>Reserva de Hotel</h2>
+    <form action="">
+        <div>
+            <label for="cNome">Nome:</label>
+            <input type="text" name="nome" id="cNome" placeholder="Digite seu Nome" required>
+        </div>
+        <div>
+            <label for="cEmail">E-mail:</label>
+            <input type="email" name="email" id="cEmail" placeholder="Digite seu E-mail" required>
+        </div>
+        <div>
+            <label for="cDataCheck-in">Data de Check-in:</label>
+            <input type="date" name="datacheckin" id="cDataCheck-in" required>
+        </div>
+        <div>
+            <label for="cDataCheck-out">Data de Check-out:</label>
+            <input type="date" name="datacheckout" id="cDataCheck-out" required>
+        </div>
+        <div>
+            <label for="cTipoQuarto">Tipo de Quarto:</label>
+            <select name="tipo-de-quarto" id="cTipoQuarto" required>
+                <option disabled selected value="">Selecione uma opção</option>
+                <option value="solteiro">Solteiro</option>
+                <option value="casal">Casal</option>
+                <option value="familia">Família</option>
+            </select>
+        </div>
+        <div>
+            <label for="cComentario">Comentários Adicionais:</label>
+            <textarea name="comentarios" id="cComentario"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+</html>

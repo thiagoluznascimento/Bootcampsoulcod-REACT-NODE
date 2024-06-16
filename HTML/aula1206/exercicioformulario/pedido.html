@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+</head>
+<body>
+    <h1>Pedido</h1>
+    <a href="index.html">
+        <button>Voltar para página inicial</button>
+    </a>
+    <hr />
+    <h2>Pedido de Comida Online</h2>
+    <form action="">
+        <div>
+            <label for="cNome">Nome:</label><br/>
+            <input type="text" name="nome" id="cNome" placeholder="Digite seu Nome" required>
+        </div>
+        <div>
+            <label for="cEndereco">Endereço:</label><br/>
+            <input type="text" name="endereco" id="cEndereco" placeholder="Digite seu Endereço" required>
+        </div>
+        <div>
+            <label for="cTelefone">Telefone:</label><br />
+            <input type="tel" name="telefone" id="cTelefone" placeholder="Seu numero pessoal" required><br />
+        </div>
+        <div>
+            <label for="cComida">Tipo de Comida:</label><br />
+            <select name="comida" id="cComida" required>
+                <label for="cTipocomida">Tipo de Comida:</label>
+                <option desabled selected value="">Selecione uma opção</option>
+                <option value="pizza">Pizza</option>
+                <option value="hamburgue">Hamburguer</option>
+                <option value="cachorroquente">Cachorro quente</option>
+            </select>    
+        </div>
+
+        <div>
+            <label for="cObservacao">Observação:</label><br/>
+            <textarea name="Observacao" id="cObservacao" placeholder="Observação"></textarea><br/>
+        </div>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

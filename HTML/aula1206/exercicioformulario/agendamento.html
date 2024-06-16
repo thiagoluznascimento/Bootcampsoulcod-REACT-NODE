@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+</head>
+<body>
+    
+    <h1>Agendamento</h1>
+    <a href="index.html">
+        <button>Voltar para página inicial</button>
+    </a>
+    <hr />
+    <h2>Agendamento de Consulta Médica</h2>
+    
+    <form action="">
+
+        <div>
+            <label for="cNome">Nome:</label><br/>
+            <input type="text" name="nome" id="cNome" placeholder="Digite seu Nome" required>    
+        </div>
+
+        <div>
+            <label for="cEmail">E-mail:</label> <br/>
+            <input type="email" name="email" id="cEmail" placeholder="Digite seu E-mail" required>
+        </div>
+
+        <div>
+            <label for="cTelefone">Telefone:</label> <br/>
+            <input type="tel" name="telefone" id="cTelefone" placeholder="Digite seu Numero" required>
+        </div>
+
+        <div>
+            <label for="cData">Data da Consulta:</label> <br/>
+            <input type="date" name="dataconsult" id="cData" required>
+        </div>
+        <div>
+            <label for="cTipoConsulta">Tipo de Consulta:</label><br/>
+            <select name="tipo-de-consulta" id="cTipoConsulta" required>
+                <option disabled selected value="">Selecione uma opção</option>
+                <option value="consulta1">Consulta1</option>
+                <option value="conaulta2'">Consulta2</option>
+                <option value="consulta3">Consulta3</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cComentario">Comentários Adicionais</label><br />
+            <textarea name="comentario" id="cComentario"></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
