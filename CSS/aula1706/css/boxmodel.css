@@ -1,0 +1,44 @@
+/* Box Model
+    -> padding (espaçamento interno)
+    -> margin (espaçamento externo)
+    -> border (borda ao redor do elemento)
+
+*/
+
+/* Seletor universal -> aplica o estilo em todos os elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box1{
+    background-color: chocolate;
+    padding: 20px;
+    margin: 10px;
+}
+.box2{
+    background-color: pink;
+    /* top right bottom left */
+    padding: 10px 15px 20px 10px; /*Sentido orario para direcionar*/
+    /* margin: 30px 10px 10px 10px; */
+
+    /* VERTICAL HORIZONTAL */
+    margin: 20px 10px;
+}
+.box3{
+    background-color: darkblue;
+    border: 5px ridge yellow; /*tamanho, tipo e cor; existe outras propriedades: bordertop*/
+    border-radius: 10px; /*Arredondar a borda*/
+    padding: 10px;
+}
+.box4{
+    background-color: seagreen;
+    margin: 10px;
+    padding: 30px;
+    border: 5px solid yellow;
+    width: 200px;
+    height: 400px;
+    /*box-sizing: border-box; Para ficar do mesmo tamanho que colocamos.. comentei pq colocamos ela no seletor universal (*) */
+}
+
+

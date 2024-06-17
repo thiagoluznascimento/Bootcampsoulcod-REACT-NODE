@@ -1,0 +1,28 @@
+* {
+    /* removendo tudo que e add automaticamente */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.secao {
+    width: 400px; /*largura*/
+    /* background-color: orange; utilizei somente para visualizar */
+    margin: 16px auto; /*16px em cima e em baixo e o auto para centralizar*/
+    background: linear-gradient(90deg, rgb(47, 255, 0), rgb(209, 193, 23), rgb(116, 116, 206));
+}
+
+/* Box Shadow -> Sobra da caixa
+ propriedades:
+ box-shadow: x y desfoque spread color
+*/
+
+.figura{
+    height: 150px; /*altura*/
+    box-shadow: 5px 5px 15px 0px gray;
+}
+
+/* Combinador de descendente */
+.secao p {
+    text-shadow: 1px 1px 1px black;
+}

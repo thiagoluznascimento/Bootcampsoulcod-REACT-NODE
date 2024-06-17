@@ -1,0 +1,27 @@
+
+body {
+    background-color: palegoldenrod;
+    font-family:  "Lato", Arial, Helvetica, sans-serif;
+    color: midnightblue;
+}
+
+h1, h2, h3 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px; /*espaçamento*/
+}
+
+img {
+    width: 400px; /*tamanho da imagem*/
+    border-radius: 20px; /*arredondar as pontas*/
+}
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+ 

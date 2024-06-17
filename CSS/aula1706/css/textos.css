@@ -1,0 +1,64 @@
+/* Propriedades de fonte e texto */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Elemento raiz */
+html {
+    font-size: 10px; /*Agora o rem vale 10px por padrao; bastante utilizado para alterar o tamanho de todas as fontes do site*/
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 800; /*peso da fonte*/
+    /*text-decoration: overline; /*decorando a fonte, passando uma linha por ex*/
+    letter-spacing: 1px; /*espaço entre as letras*/
+    line-height: 20px; /*espaço entre as linhas*/
+    color: brown;
+    /* hexadecimal / rgb / rgba */
+    /* color: #ac6abd; */
+    /* color: rgb(255,100,25); */
+    color: rgba(255, 0, 0, 0.5); /*alfa dá uma transparencia no texto*/
+    font-size: 2rem;
+}
+
+/*
+    - Unidades absolutas (px, cm, pt, etc); -> sao valores fixo
+    - Unidades relativas (adaptavel)
+        vh  -> viewport height (altura tela) relacionadas a tela do dispositivo
+        vw -> viewport width (largura tela) relacionadas a tela do dispositivo
+        em -> nao explicou
+        rem -> Mais usado, para o tamanho da fonte(o que vale 16px(por padrao)
+        % -> Mais usado, relativo ao elemento pai; mais utilizado na largura (ver se o elemento pai está cravado a altura)
+*/
+
+.quadrado1 {
+    background-color: royalblue; /*altera a cor da div*/
+    width: 150px; /*Latura*/
+    height: 150px; /*Altura*/
+}
+
+.quadrado2 {
+    background-color: blanchedalmond;
+    width: 50 vw;
+    height: 20vh;
+}
+
+.secao2 {
+    width: 200px;
+    background-color: pink;
+    height: 600px;
+}
+
+.quadrado3 {
+    background-color: tomato;
+    width: 60%;
+    height: 60%;
+}
+
+.quadrado4 {
+    background-color: violet;
+    height: 300px;
+    width: 300px;
+}

@@ -1,0 +1,10 @@
+css -> Cascading Style Sheets
+Folhas de Estilo em cascata
+
+    seletor { propriedades: valor }
+    
+
+    FOMAS DE USO
+- inline
+- <style>
+- arquivo externo
