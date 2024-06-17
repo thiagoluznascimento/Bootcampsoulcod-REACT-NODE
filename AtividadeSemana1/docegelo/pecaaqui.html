@@ -17,7 +17,7 @@
             </a>
         </div>
         <nav>
-            <h1>Doce Gelo</h1>
+            <h1 id="inicio">Doce Gelo</h1>
         </nav>
     </header>
     <main>
@@ -26,6 +26,7 @@
             <div>
                 <label for="cSorvetesMassa">Sorvetes de Massa:</label><br>
                 <select name="sorvetemassa" id="cSorvetesMassa">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="tradicionais">Tradicionais (baunilha, chocolate, morango)</option>
                     <option value="especiais">Especiais (pistache, tiramisù, creme brulée)</option>
                     <option value="exoticos">Sabores exóticos (açaí, maracujá, coco)</option>
@@ -35,6 +36,7 @@
             <div>
                 <label for="cSorvetesArtesanais">Sorvetes Artesanais:</label><br>
                 <select name="sorveteartesanais" id="cSorvetesArtesanais">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="naturais">Feitos com ingredientes naturais e frescos</option>
                     <option value="sazonais">Sabores sazonais</option>
                 </select>
@@ -43,6 +45,7 @@
             <div>
                 <label for="cSorvetesDietLight">Sorvetes Diet e Light:</label><br>
                 <select name="sorvetesdietlight" id="cSorvetesDietLight">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="semacucar">Opções sem açúcar</option>
                     <option value="baixacalorias">Baixas calorias</option>
                 </select>
@@ -51,24 +54,39 @@
             <div>
                 <label for="cSorvetesVeganos">Sorvetes Veganos:</label><br>
                 <select name="sorvetesveganos" id="cSorvetesVeganos">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="vegano">Feitos com leite de coco, amêndoas ou soja</option>
                 </select>
             </div>
+            <div>
+                <a href="cardapio.html">
+                    <button type="button">Volte ao Cardápio</button>
+                </a>
+            </div>
+
 
 
             <h2>Galatos</h2>
             <div>
                 <label for="cGalatoItaliano">Gelato Italiano:</label><br>
                 <select name="galatoitaliano" id="cGalatoItaliano">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="italiano">Sabores autênticos italianos</option>
                 </select>
             </div>
+            <div>
+                <a href="cardapio.html">
+                    <button type="button">Volte ao Cardápio</button>
+                </a>
+            </div>
+
 
 
             <h2>Picolés</h2>
             <div>
                 <label for="cPicolesFruta">Picolés de Frutas:</label><br>
                 <select name="picolesfruta" id="cPicolesFruta">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="picolesfrutasfrescas">Feitos com frutas frescas</option>
                     <option value="saboresvariados">Sabores variados (limão, manga, abacaxi)</option>
                 </select>
@@ -76,16 +94,53 @@
             <div>
                 <label for="cPicolesCremosos">Picolés Cremosos:</label><br>
                 <select name="picolescremosos" id="cPicolesCremosos">
+                    <option disabled selected value="">Selecione uma opção</option>
                     <option value="picolescremos">Leite condensado, doce de leite, chocolate branco</option>
                 </select>
             </div>
+            <div>
+                <a href="cardapio.html">
+                    <button type="button">Volte ao Cardápio</button>
+                </a>
+            </div>
 
 
+            <h2>Sobremesas Congeladas</h2>
+            <div>
+                <label for="cAcainatigela">Açaí na Tigela:</label>
+                <select name="acainatigela" id="cAcainatigela">
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option value="acaiacompanhados">Açaí com acompanhamentos variados (granola, frutas, mel)</option>
+                    <option value="acaicombanana">Acai com banana</option>
+                    <option value="acaicomnutela">Acai com nutela</option>
+                    <option value="acaicomcupuacu">Acai com cupuaçu</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="bolosgelados">Bolos Gelados:</label>
+                <select name="bolosgelados" id="cAcainatigela">
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option value="bolocomsorvete">Bolos feitos com camadas de sorvete</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Finalizar pedido</button>
+                <a href="cardapio.html">
+                    <button type="button">Volte ao Cardápio</button>
+                </a>
+            </div>
+    
+            
         </form>
-
+        
+        <aside>
+            <a href="#inicio">
+                subir
+                <span class="material-symbols-outlined">arrow_upward</span>
+            </a>
+        </aside>
     </main>
-
-
     <footer>
         <section>
         <hr/>
