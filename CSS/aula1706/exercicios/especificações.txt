@@ -1,0 +1,9 @@
+1. Com base no arquivo HTML em anexo (exercicio1.html), crie um arquivo de estilização e aplique estilos para
+os elementos de acordo com os atributos ID, classe e elemento. Todos os elementos devem ter algum tipo
+de estilização (fonte, tamanho, espaçamento, margem, bordas, etc).
+
+2. Crie outro arquivo HTML com seções de texto e botões. Usando os conceitos de box model, shadow e gradient, faça o seguinte:
+Crie classes com variações para estes botões (veja o link em anexo como referência);
+Aplique gradient no body;
+Aplique variações de text shadow e box shadow nas seções e cabeçalhos;
+Aplique fonte customizada do Google;

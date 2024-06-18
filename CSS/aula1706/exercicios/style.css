@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo-principal{
+    background-color: blue;
+    color: bisque;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.texto-introducao{
+    color: blue;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px 15px 20px 10px;
+}
+
+.caixa{
+    background-color: chocolate;
+    padding: 20px;
+    margin: 10px;
+    width: 350px; /*largura*/
+    /* height: 10px; */
+}
+
+.figura{
+    height: 150px; /*Altura*/
+}
+
+#descricao-img{
+    background-color: rgb(225, 166, 166);
+    color: aliceblue;
+    padding: 8px;
+    margin: 0px;
+    width: 200px;
+    border-radius: 10px;
+}
