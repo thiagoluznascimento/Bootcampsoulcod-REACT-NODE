@@ -77,28 +77,46 @@ input {
     width: 100%;
 }
 
+
 .cronograma {
-    /* background-color: orange; */
-    width: 800px;
-    margin: auto;
-}
-
-table {
     width: 100%;
-    border-collapse: collapse; /*para "grudar as linhas*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+    padding: 20px;
 }
 
-td, th {
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .thead, .tbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .tr {
+    display: flex;
+    width: 100%;
+  }
+  
+  .th, .td {
+    flex: 1;
+    padding: 10px;
     border: 1px solid orange;
-    padding: 5px;
-}
-
-th {
-    padding: 12px 0;
+    text-align: center;
+  }
+  
+  .th {
+    padding: 12px;
     color: white;
     background-color: orange;
     border-color: #121212;
-}
+  }
 
 .contato-whatsapp {
     width: 56px; /*altura*/
@@ -116,3 +134,69 @@ th {
 .contato-whatsapp:hover {
     filter: invert();
 }
+
+/* Breakpoints */
+@media (max-width: 480px) {
+    html {
+        font-size: 14px;
+    }
+    .titulo {
+        font-size: 2.5rem;
+    }
+    .descricao {
+        font-size: 1.2rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+        padding: 12px 24px;
+    }
+    .newsletter {
+        width: 100%;
+        padding: 8px;
+    }
+    .th, .td {
+        padding: 6px;
+        font-size: 0.8rem;
+    }
+    .cronograma {
+        padding:0;
+    }
+    .table {
+        overflow-x: auto;
+    }
+    .tr {
+        padding: 0px;
+        white-space: nowrap;
+    }
+    .tr, .td {
+        padding: 4px;
+        justify-content: center; */
+    }
+}
+
+
+/*
+Estava usando dessa forma, antes de torna-lo flex
+.cronograma {
+    /* background-color: orange; 
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /*para "grudar as linhas
+}
+
+td, th {
+    border: 1px solid orange;
+    padding: 5px;
+}
+
+th {
+    padding: 12px 0;
+    color: white;
+    background-color: orange;
+    border-color: #121212;
+}
+*/
