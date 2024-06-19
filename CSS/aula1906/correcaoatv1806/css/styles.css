@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #0b0f19;
+    display: flex;
+    height:  64px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.navbar img {
+    height: 100%; /*Altura de 100% da minha nav*/
+}
+
+.nav-links {
+    /* background-color: brown; */
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover {
+    color: #d9b800;
+}
+
+@media (max-width: 480px) {
+    /* - Trocar a navbar de row p/ column*/
+    /* - Redefinir a altura*/
+    /* - Alinhar os elementos*/
+    .navbar {
+        flex-direction: column;
+        height: auto; /*Valor padrão; sempre colocar auto*/
+        align-items: center;
+        gap: 12px;
+    }
+    /* - Ajustar a largura */
+    .navbar img {
+        width: 156px;
+    }
+    /* - row p/ column*/
+    .nav-links {
+        flex-direction: column;
+    }
+}
+
+/* Seção de Cards responsivas */
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+    /* background-color: #d9b800; */
+}
+
+.section-card {
+    width: 300px;
+    display: flex;
+    padding: 16px;
+    gap: 16px;  /*gap utiliza para separar*/
+    background-color: wheat;
+}
+
+.section-card img {
+    width: 120px;
+}
+
+.section-card p {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .section-card {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+    .section-card img {
+        width: 100%; /*100% do meu card*/
+    }
+    .section-card p {
+        padding: 16px;
+    }
+}

@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: brown;
+}
+
+.item-3 {
+    background-color: hotpink;
+    
+    /* Define o alinhamento individual no eixo cross */
+    /* flex-start, flex-end, center, stretch*/
+    /*tive que comentar align-content: center; lá no .container */
+    align-self: flex-start;
+}
+
+.item-4 {
+    background-color: yellow;
+}
+
+.item-1, .item-2, .item-3, .item-4 {
+    width: 200px;
+    padding: 8px;
+}
+
+.container {
+    background-color: darkcyan;
+    /* padding: 8px; */
+    display: flex; /*Ativa o flexbox..Para criar o container*/
+    flex-direction: row; /* Define se é row/colum */
+
+    flex-wrap: wrap; /* Define se há quebra de linha ao faltar espaço */
+
+    /* start, end, center, space-between, space-around, space-evenly */
+    justify-content: center;   /* Ajustar os elementos no eixo main */
+    
+    /* para o align-iem funcionar, temos que ter alguma altura; nosso caso utilizei 100vh */
+    height: 100vh;
+    align-items:  center; /* Ajustar os elementos no eito coss (vertical na row) */
+
+    /* Ajusta os elemtentos quando usamos o wrap */
+    /* space-between, space-around, center, flex-start, flex-end */
+    /* align-content: center; */
+
+    gap: 16px;  /* Ao inves de padding e width */
+
+}
