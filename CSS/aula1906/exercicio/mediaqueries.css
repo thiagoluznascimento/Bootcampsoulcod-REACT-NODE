@@ -1,0 +1,26 @@
+/* Mobile (0 - 480) */
+@media (max-width: 480px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Tablet (481px - 768px) */
+@media (min-width:481px) and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/* Laptops (769px- 1279px) */
+@media (min-width: 769px) and (max-width: 1279px) {
+    body {
+        background-color: gold;
+    }
+}
+
+@media (min-width: 769px) {
+    body {
+        background-color: bisque;
+    }
+}

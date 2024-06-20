@@ -16,6 +16,11 @@ header h1 {
     margin: 0;
 }
 
+.nav-links {
+    /* background-color: orange; */
+    display: flex;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -30,6 +35,9 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.nav-links a:hover {
+    color: #ccc;
+}
 
 main {
     padding: 1rem;
@@ -37,6 +45,11 @@ main {
 
 .intro, .gallery {
     margin-bottom: 2rem;
+    /* display: flex; */
+}
+
+.gallery {
+    display: flex;
 }
 
 .images {
