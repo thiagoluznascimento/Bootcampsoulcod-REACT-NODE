@@ -95,11 +95,14 @@ input {
   
   .thead, .tbody {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
   }
+  .thead {
+    background-color: orange;
+  }
   
-  .tr {
+  /* .tr {
     display: flex;
     width: 100%;
   }
@@ -116,7 +119,7 @@ input {
     color: white;
     background-color: orange;
     border-color: #121212;
-  }
+  } */
 
 .contato-whatsapp {
     width: 56px; /*altura*/
