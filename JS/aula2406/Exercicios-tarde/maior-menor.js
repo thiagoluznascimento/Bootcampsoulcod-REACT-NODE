@@ -1,7 +1,7 @@
 // 3. Defina um número a e um número b. Verifica qual o maior, ou menor, ou se são iguais!
 
 
-let a = 30;
+let a = 30.00;
 let b = 30;
 
 
