@@ -14,16 +14,19 @@ body {
     font-size: 3.5rem; /*3.5 * 16 = 56px  ; 16 seria  font-size na propriedade html*/
     color: goldenrod;
     text-align: center;
+    text-shadow: 1px 1px 1px black;
 }
 .descricao {
     font-style: italic;
     font-size: 1.4rem;
     color: goldenrod;
+    text-shadow: 1px 1px 1px black;
 }
 
 .aulas {
     width: 100%;
     color: goldenrod;
+    text-shadow: 1px 1px 1px black;
 }
 .rodape {
     text-align: center;

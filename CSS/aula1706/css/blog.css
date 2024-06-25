@@ -10,6 +10,8 @@
     /* background-color: orange; utilizei somente para visualizar */
     margin: 16px auto; /*16px em cima e em baixo e o auto para centralizar*/
     background: linear-gradient(90deg, rgb(47, 255, 0), rgb(209, 193, 23), rgb(116, 116, 206));
+    /* margin: auto; */
+    /* padding: 10px; */
 }
 
 /* Box Shadow -> Sobra da caixa

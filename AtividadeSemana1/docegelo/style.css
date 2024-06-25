@@ -1,11 +1,50 @@
-
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
+
 body {
     background-color:bisque;
+}
+/* 
+.container01 {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+} */
+
+.container02 {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.imagens {
+  display: flex;
+  flex-wrap: wrap; /* Permite que as imagens se empilhem quando necessário */
+  justify-content: space-around; /*Distribui as imagens igualmente*/
+  align-items: center; /*Alinha as imagens verticalmente ao centro */
+  padding: 70px;
+}
+
+.imagens img {
+  width: 500px; /* Define uma largura fixa */
+  height: 500px; /* Define uma altura fixa */
+  object-fit: cover; /* Mantém a proporção da imagem e preenche o contêiner */
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Media query para telas pequenas */
+@media (max-width: 600px) {
+  .imagens {
+      flex-direction: column; /* Alinha as imagens em coluna em telas pequenas */
+      align-items: stretch; /* Alinha as imagens para ocupar a largura total */
+  }
+
+  .iimagens img  {
+      max-width: 100%; /* Permite que as imagens ocupem a largura total */
+  }
 }
