@@ -56,6 +56,7 @@ console.log(arquivo.endsWith('mp4')); // verifica se termina com 'mp4'
 console.log(arquivo.split(' ')); // verifica se termina com 'mp4'
 
 // Slice
+let arquivo = "musica .mp3"
 console.log(arquivo.slice(0, 3)); // recorta a string do indice ) até 3
 console.log(arquivo.slice(0, 4));
 console.log(arquivo.slice(4, 6));

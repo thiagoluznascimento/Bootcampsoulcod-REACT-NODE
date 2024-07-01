@@ -29,7 +29,6 @@ exemplo2()
 function soma(a, b) {
     console.log(`A soma de ${a} e ${b} é ${a + b}`);
 }
-
 soma(15, 10);
 soma(17, 18);
 

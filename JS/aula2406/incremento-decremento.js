@@ -13,3 +13,13 @@ let idade = 18
 idade = idade + 5
 idade = idade + 10
 idade = idade - 3
+
+
+
+const lista = [1,3,3,4]
+let soma =0;
+for (let i = 0; i < lista.length; i ++){
+    soma += lista[i];
+}
+console.log(soma);
+
